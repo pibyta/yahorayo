@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>app y ahora yo!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="jquery-1.12.3.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+<script src="themes/jquery.mobile.icons.min.js"></script>
+
+<link rel="stylesheet" href="themes/yahorayo.min.css">
+<link rel="stylesheet" href="themes/yahorayo.css">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+
+
+<!-- Start of first page inicio-->
+<div data-role="page" id="inicio">
+<div data-role="header" style="overflow:hidden; background-color:#66657f;"><img src="img/encabezado.jpg" alt="y ahora yo">
+</div>
+<div data-role="navbar" data-theme="c">
+<ul>
+<li> <a href="#" class="ui-btn-active">COACHING</a></li>
+<li><a href="#preguntas" data-transition="slide">PREGUNTAS</a></li>
+<li><a href="#contacto" data-transition="slide">CONTACTO</a></li>
+</ul>
+</div>
+<div class="ui-field-contain">
+<label for="textinput-1">Usuario: </label>
+<input type="text" name="textinput-1" id="textinput-1" placeholder="nombre" value="">
+<label for="textinput-3">Contraseña: </label>
+<input type="text" name="textinput-3" id="textinput-3" value="">
+<button type="submit" id="submit-5" class="ui-shadow ui-btn ui-corner-all ui-mini">loguin</button>
+</div>
+<div role="main" class="ui-content">
+<form><label><input type="checkbox" name="checkbox-0">
+</label></form><a href="#registro" data-transition="pop">registrarme</a></div>
+<div data-role="footer" style="background-color:#decdab";><a href="#coach">coach</a></div>
+</div>
+
+<!-- Start of registro page -->
+<div data-role="page" id="registro" >
+
+<div data-role="header" style="overflow:hidden;background-color:#66657f;">
+<img src="img/encabezado.jpg" alt="y ahora yo" data-theme="c";>
+</div>
+<div data-role="navbar">
+<ul>
+<li> <a href="#" class="ui-btn-active">COACHING</a></li>
+<li><a href="#preguntas"data-transition="slide" >PREGUNTAS</a></li>
+<li><a href="#contacto" data-transition="slide" >CONTACTO</a></li>
+</ul>
+</div>
+<div class="ui-field-contain">
+<label for="textinput-1">Usuario: </label>
+<input type="text" name="textinput-1" id="textinput-1" placeholder="nombre" value="">
+<label for="textinput-2">Mail: </label>
+<input type="text" name="textinput-2" id="textinput-2" value="">
+
+<label for="textinput-3">Contraseña: </label>
+<input type="text" name="textinput-3" id="textinput-3" value="">
+
+<button type="submit" id="submit-5" class="ui-shadow ui-btn ui-corner-all ui-mini">enviar</button>
+
+</div>
+
+<div role="main" class="ui-content"> </div>
+
+<div data-role="footer" style="background-color:#decdab";><a href="#coach">coach</a></div>
+    
+
+</div>
+<!-- Start of preguntas page -->
+
+<div data-role="page" id="preguntas">
+<div data-role="header" style="overflow:hidden; background-color:#66657f;">
+<img src="img/encabezado.jpg" alt="y ahora yo">
+
+</div>
+
+<div data-role="navbar">
+<ul>
+<li> <a href="#" class="ui-btn-active">COACHING</a></li>
+<li><a href="#preguntas"data-transition="slide" >PREGUNTAS</a></li>
+<li><a href="#contacto" data-transition="slide" >CONTACTO</a></li>
+</ul>
+</div>
+
+<div role="main" class="ui-content"><h4>
+Grabar mis preguntas sobre...</h4></div>
+<div class="ui-grid-b ui-responsive">
+<div class="ui-block-a"> <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-right ui-icon-check">amigos</a></div>
+<div class="ui-block-b"> <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-right ui-icon-check">pareja</a></div>
+<div class="ui-block-c"> <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-right ui-icon-check">familia</a></div>
+<div class="ui-block-d"> <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-right ui-icon-check">estudio</a></div>
+<div class="ui-block-e"> <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-right ui-icon-check">trabajo</a></div>
+<div class="ui-block-f"> <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-icon-right ui-icon-check">........</a></div>
+</div>
+<div data-role="footer" style="background-color:#decdab";><a href="#coach" data-transition="pop">coach</a></div>	
+</div>
+
+<!-- Start of contacto page -->
+
+<div data-role="page" id="contacto">
+<div data-role="header" style="overflow:hidden;background-color:#66657f;"><img src="img/encabezado.jpg" alt="y ahora yo">
+</div>
+<div data-role="navbar">
+<ul>
+<li> <a href="#" class="ui-btn-active">COACHING</a></li>
+<li><a href="#preguntas" data-transition="slide">PREGUNTAS</a></li>
+<li><a href="#contacto" data-transition="slide">CONTACTO</a></li>
+</ul>
+</div>
+	<div role="main" class="ui-content">
+    <p>Si estás decidido a buscar un resultado diferente al actual en tu vida, podemos tener una conversación sin cargo vía skype: yahorayo.conversaciones</p>
+
+<p>Te invito a contactarme e informarte sobre los métodos, el tiempo y duración de las conversaciones y los distintos medios de pago</p>
+
+<p>15-5465-1712</p>
+
+   
+    </div>
+	<div data-role="footer" style="background-color:#decdab";><a href="#coach" data-transition="pop">coach</a></div>
+    
+
+</div>
+
+<!-- Start of coach page -->
+
+<div data-role="page" id="coach">	
+<div data-role="header" style="overflow:hidden;background-color:#66657f;"><img src="img/encabezado.jpg" alt="y ahora yo">
+</div>
+<div data-role="navbar" data-theme="c">
+<ul>
+<li> <a href="#" class="ui-btn-active">COACHING</a></li>
+<li><a href="#preguntas" data-transition="slide" >PREGUNTAS</a></li>
+<li><a href="#contacto" data-transition="slide">CONTACTO</a></li>
+</ul>
+</div>
+<div role="main" class="ui-content"><p>Hola, soy Patricia Barrientos certificada en coach ontológico profesional</p>
+<p>Te doy  la bienvenida a tu proceso de cambio</p>
+<img src="img/foto.jpg" alt="patricia barrientos">
+
+
+<a href="#" id="saludo">saludar</a>   
+    <a href="#" id="btn_guardar">guardar dato</a>
+    <a href="#" id="btn_ver">ver datos</a> 
+     </div>
+	<div data-role="footer" style="background-color:#decdab";></div>
+    	
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>

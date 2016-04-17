@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#0F0;
+	background-color:#727287;
+	}
+
+.ui-content{
+	background-color:#727287;
+	color:#FFF;
+}
+#footer{.ui-field-contain label{
+	padding:10px;
+}
+.ui-field-contain input{
+	padding:10px;
+}
+button{
+	padding-top:15px;
+	padding:10px;
+}
+
+#footer{
+	color:#decdab;
+}
+a{
+	color:#FFF;
+}
